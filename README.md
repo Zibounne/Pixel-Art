@@ -16,7 +16,6 @@ Des futurs changements et mises à jour sont prévus pour améliorer le projet, 
 
 Mise à jours :
 
-### Version 1.00 (15/03/24)
+### Version 1.00 (19/03/24)
 
-- Finalisation du script.
-- Lancement du projet sur le dépôt Git en ligne.
+Cette première version marque la finalisation du script et le lancement du projet sur le dépôt Git en ligne. Conçue pour être simple et accessible aux débutants, cette version initiale est principalement développée en utilisant les technologies fondamentales du web : HTML, CSS et JavaScript.
