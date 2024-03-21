@@ -1,0 +1,46 @@
+body{
+    background: rgb(48, 48, 48);
+}
+
+.titre{
+    text-align: center;
+    font-size: 100px;
+}
+
+.center{
+    display: block;
+    margin: auto;
+}
+
+.tableau{
+    width: 750px;
+    height: 450px;
+}
+
+.pixel{
+    width: 25px;
+    height: 25px;
+    float: left;
+    box-shadow: 0px 0px 1px #fff;
+}
+
+.palette{
+    background-color: transparent;
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.titrePalette{
+    font-size: 25px;
+    text-align: center;
+}
+
+.centerOption{
+    padding-bottom: 20px;
+    margin: auto;
+    height: 25px;
+    width: 240px;
+}
