@@ -1,46 +1,51 @@
-body{
-    background: rgb(48, 48, 48);
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.titre{
-    text-align: center;
-    font-size: 100px;
+body {
+  font-family: "Helvetica Neue";
+  background: rgb(48, 48, 48);
 }
 
-.center{
-    display: block;
-    margin: auto;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+footer div p {
+  color: white;
 }
 
-.tableau{
-    width: 750px;
-    height: 450px;
+#indexSection1 h1 {
+  text-align: center;
+  font-size: 100px;
 }
-
-.pixel{
-    width: 25px;
-    height: 25px;
-    float: left;
-    box-shadow: 0px 0px 1px #fff;
+#indexSection1 input {
+  background-color: transparent;
+  border: 0px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
 }
-
-.palette{
-    background-color: transparent;
-    border: 0px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: auto;
+#indexSection1 .colorpick-eyedropper-input-trigger {
+  display: none;
 }
-
-.titrePalette{
-    font-size: 25px;
-    text-align: center;
+#indexSection1 .grid {
+  display: grid;
+  grid-template-columns: repeat(50, 25px);
+  grid-template-rows: repeat(20, 25px);
+  justify-content: center;
 }
-
-.centerOption{
-    padding-bottom: 20px;
-    margin: auto;
-    height: 25px;
-    width: 240px;
-}
+#indexSection1 .cell {
+  border: 1px solid grey;
+  background-color: transparent;
+}/*# sourceMappingURL=style.css.map */
